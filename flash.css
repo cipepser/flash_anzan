@@ -1,0 +1,305 @@
+
+h1{
+	position: absolute;
+	top: 40%;
+	left: 46%;
+}
+
+form{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+
+/*
+セレクタ:h1
+プロパティ:color
+値:red
+h1{
+	color:red;
+}
+*/
+/*
+h1{
+	color:red;
+}
+*/
+/* ID要素 */
+/*
+#main{
+	font-size:36px;
+}
+*/
+/* class要素 */
+/*
+.test{
+	font-size: 9px;
+}
+*/
+
+/* 複数の要素 */
+/*
+#main, .test{
+	border: 1px solid #ccc;
+}
+*/
+
+
+/*
+p{
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+
+	line-height: 1.5;
+*/
+	/* 打ち消し線と下線。複数のプロパティを並べられる*/
+/*	text-decoration: line-through underline;
+*/
+	/* イタリック */
+/*	font-style: italic;
+}
+*/
+
+/*p{
+	font-size: 14px;
+}
+*//*
+body{
+	background-color: red;
+*/
+	/* 背景画像 */
+/*	background-image: url('css.jpg');
+*/	/* 複数回画像を表示させたくない時 */
+/*	background-repeat: no-repeat;
+*/	/* 横方向だけ(縦方向は-y)
+	background-repeat: repeat-x;*/
+
+	/* 背景画像の開始位置の指定 */
+	/*background-position: 10px 10px;*/
+/*	background-position: top right;
+
+
+	background-attachment: fixed;
+	*/
+	/* backgroundだけで指定しても問題ない*/
+/*
+}
+*/
+
+
+/*BOX要素をいじる*/
+/*
+#box1{
+	background-color: red;
+*/
+/*	width: 50%;
+	height: 50px;
+*/
+	/* 枠線 */
+/*
+	border-color: green;
+	border-width: 5px;
+	border-style: solid;
+*/
+	/* 下側にだけ枠線を着けるときはbottomを挟む */
+/*
+	border-bottom-color: green;
+	border-bottom-width: 5px;
+	border-bottom-style: solid; double; dotted; dashed; inset; outset;
+*/
+/* 枠線はborderだけで指定できる */
+
+
+/* 余白
+padding: 内側の余白
+margin: 外側の余白
+*/
+/*
+border: green 4px solid;
+padding: 40px 100px 200px 5px;
+margin:40px;
+
+}
+*/
+
+/*
+#header {
+	background-color: red;
+}
+#main {
+	background-color: blue;
+	float: left;
+	width: 300px;
+}
+#sidebar {
+	background-color: yellow;
+	float: right;
+	width: 100px;
+}
+#footer {
+	background-color: green;
+	clear: right;
+}
+*/
+/*
+ul{
+*/
+	/*
+none: 箇条書きの黒丸が消える
+circle: 丸点
+square: 四角
+*/
+/*	list-style-type: square;
+*/
+
+/* outside, inside */
+/*	list-style-position: inside;
+}
+*/
+/*
+ol{
+*/
+/*
+lower-alpha
+hiragana
+*/
+
+/*
+	list-style-type: hiragana;
+}
+*/
+
+/* block要素:block, インライン要素:inline */
+/*
+a{
+	display: inline;
+}
+
+li{
+	display: inline;
+}
+
+p{
+	display: none;
+}
+*/
+/* pointer, help, move, wait */
+/*
+.change{
+	cursor: help;
+}
+*/
+
+/*
+
+a,b
+a b
+a>b
+ab
+
+*/
+/*
+#greet .person{
+	color: red;
+
+}
+*/
+
+/* 擬似クラス */
+/*
+.person:hover{
+	color: red;
+}
+
+li:first-child{
+	color: green;
+}
+
+#onamae:focus{
+	font-weight: bold;
+}
+*/
+
+
+/*
+セレクタの優先順位
+
+1. あとから書いたほうが優先される
+2. id > class
+3. 詳細に指定したほうが優先される
+4. !important
+
+*/
+/*
+#id1{
+	color: red !important;
+}
+
+
+.class1{
+	color: green;
+}
+
+p#id1{
+	color: yellow;
+}
+*/
+
+/* position: static, relative, absolute, fixed */
+
+/*
+#id3{
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+
+
+#id2{
+	position: relative;
+}
+
+#free{
+	position: absolute;
+	top: -10px;
+	left: 50px;
+}
+
+#id1{
+	position: fixed;
+	bottom: 0;
+}
+*/
+
+/* 要素の重なり: z-index */
+
+
+/*#id1{
+	position: relative;
+	left: 0;
+	background-color: red;
+	z-index: 2;
+}
+#id2{
+	position: relative;
+	top: -20px;
+	left: 10px;
+	background-color: blue;
+	z-index: 1;
+}
+#id3{
+	position: relative;
+	top: -40px;
+	left: 20px;
+	background-color: green;
+	z-index: 3;
+}*/
+
+
+
+
+
+
